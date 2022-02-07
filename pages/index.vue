@@ -1,12 +1,9 @@
-<template>
-  <div>
-    <h1>Elloooo!!</h1>
-  </div>
-</template>
+<template></template>
 
 <script>
 export default {
   name: "IndexPage",
+  layout: "home",
 };
 </script>
 
