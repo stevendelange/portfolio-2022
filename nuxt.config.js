@@ -39,9 +39,16 @@ export default {
   },
 
   fontLoader: {
-    url: "https://use.typekit.net/vsi0wms.css",
+    url: {
+      custom: "https://use.typekit.net/vsi0wms.css",
+    },
     prefetch: true,
     preconnect: true,
+    preload: {
+      hid: "my-font-preload",
+    },
+    // noscript: {},
+    // stylesheet: true,
   },
 
   gsap: {
