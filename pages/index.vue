@@ -10,4 +10,8 @@ export default {
 };
 </script>
 
-<style lang="scss" module></style>
+<style lang="scss" module>
+body {
+  background: red;
+}
+</style>
