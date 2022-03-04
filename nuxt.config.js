@@ -44,7 +44,11 @@ export default {
     preconnect: true,
   },
 
-  gsap: {},
+  gsap: {
+    clubPlugins: {
+      SplitText: true,
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

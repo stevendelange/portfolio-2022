@@ -1,10 +1,13 @@
-<template></template>
+<template>
+  <section>
+    <div>about</div>
+  </section>
+</template>
 
 <script>
 export default {
   name: "IndexPage",
-  layout: "home",
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" module></style>

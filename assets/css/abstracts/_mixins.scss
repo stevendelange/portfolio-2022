@@ -1,0 +1,17 @@
+@mixin font--aktiv--regular {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font--aktiv--bold {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin font--pressio {
+  font-family: pressio-x-compressed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
